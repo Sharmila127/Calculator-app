@@ -1,5 +1,5 @@
 FROM node:20
-WORKDIR /calculator
+WORKDIR /app
 COPY calculator.html .
 COPY server.js .
 EXPOSE 5000 
